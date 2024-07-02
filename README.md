@@ -10,7 +10,8 @@ Create a Conda enviornment with Python version 3.9
 
 Activate the Conda enviornment
 
-Rune script.py
+Run script.py
+
 ``
 python script.py
 ``
