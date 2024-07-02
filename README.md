@@ -1,5 +1,7 @@
 # Face Recognition and Object Detection for Safety Concern
 
+## Steps
+
 1. Create a folder, which is the main directory of the script
 2. Download the model required at [here](https://github.com/rahilmoosavi/DetectConstructionSafety/blob/master/best.pt) , place it inside the main directory
 3. Create folder named "Face_Recognition" inside the directory of the script and folders for each identities/persons. The name of each folder should correspond to the name of each identity.
