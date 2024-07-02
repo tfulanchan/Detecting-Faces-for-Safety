@@ -15,7 +15,7 @@ Run script.py
 ``
 python script.py
 ``
-## Contributions
+## Contributions of script-20240702-afternoon.py
 
 - Integrated Face Recognition with Object Detection
   - Combines YOLO object detection with face recognition to identify individuals and their safety equipment.
