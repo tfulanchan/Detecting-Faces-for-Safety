@@ -25,7 +25,7 @@ python script.py
 
 - Selective Safety Equipment Detection
   - Separately detects 'safety vest', 'no-safety vest', 'hardhat', and 'no-hardhat'.
-  - Ensures these detections are associated only with identified persons inside 'person' rectangles.
+  - Ensures these detections are associated with both unkown and identified persons inside 'person' rectangles.
 
 - Person-Specific Safety Equipment Association
   - Links safety equipment detections to specific person boxes, allowing for individual-level safety compliance monitoring.
@@ -33,7 +33,7 @@ python script.py
 - Intelligent Reporting
   - Print statements are generated only for identified persons with associated safety equipment detections.
   - Clearly differentiates between hardhat/no-hardhat and safety vest/no-safety vest detections in reports.
-  - Avoids unnecessary alerts by not printing statements for unidentified persons or those without detected safety equipment.
+  - Avoids unnecessary alerts by not printing statements for those without detected safety equipment.
 
 - Visual Feedback
   - Draws bounding boxes for detected persons and safety equipment.
@@ -44,4 +44,5 @@ python script.py
 
 - Real-time Processing
   - Performs all detections and recognitions in real-time on video feed.
+  - Display time and local timezone of device in video feed and print statements.
 
