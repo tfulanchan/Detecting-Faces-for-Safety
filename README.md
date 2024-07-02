@@ -7,7 +7,13 @@
 3. Create folder named "Face_Recognition" inside the directory of the script and folders for each identities/persons. The name of each folder should correspond to the name of each identity.
 4. Replace the ``reference_image_dir`` with the corresponding absolute path in your directory
 5. Create a Conda enviornment with Python version 3.9
+```python
+conda create --name myenv python=3.9
+```
 6. Activate the Conda enviornment
+```python
+conda activate myenv
+```
 7. Run script.py
 
 ```python
