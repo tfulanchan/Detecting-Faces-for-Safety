@@ -14,7 +14,8 @@ conda create --name myenv python=3.9
 ```python
 conda activate myenv
 ```
-7. Run script.py
+7. Install all libraries used in the script
+8. Run script.py
 
 ```python
 python script.py
