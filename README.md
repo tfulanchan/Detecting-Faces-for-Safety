@@ -6,6 +6,8 @@ Download the model required at [here](https://github.com/rahilmoosavi/DetectCons
 
 Create another folder named "Face_Recognition" inside the directory of the script and folders for each identities/persons. The name of each folder should correspond to the name of each identity.
 
+Replace the ``reference_image_dir`` with the corresponding absolute path in your directory
+
 Create a Conda enviornment with Python version 3.9
 
 Activate the Conda enviornment
