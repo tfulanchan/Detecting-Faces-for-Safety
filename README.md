@@ -15,10 +15,10 @@ conda create --name myenv python=3.9
 conda activate myenv
 ```
 7. Install all libraries used in the script
-8. Run script.py
+8. Run the most updated script in this repository
 
 ```python
-python script.py
+python {name of script file}
 ```
 
 ## Contributions of script-20240702-afternoon.py
