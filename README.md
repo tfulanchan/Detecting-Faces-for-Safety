@@ -20,7 +20,7 @@ conda install -c conda-forge cmake
 ```
 
 ```python
-pip install dlib
+pip install dlib opencv-python face-recognition Pillow azure-cognitiveservices-vision-face msrest
 ```
 
 7. Install all libraries used in the script
