@@ -14,6 +14,15 @@ conda create --name myenv python=3.9
 ```python
 conda activate myenv
 ```
+
+```python
+conda install -c conda-forge cmake
+```
+
+```python
+pip install dlib
+```
+
 7. Install all libraries used in the script
 8. Run the most updated script in this repository
 
